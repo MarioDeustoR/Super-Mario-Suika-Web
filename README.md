@@ -1,29 +1,17 @@
-# 🍄 Super Mario Suika Web
+# 🍄 Super Mario Suika (Web & Android Mobile App)
 
-A web-based clone of the popular "Suika Game" (Watermelon Game) set in the Super Mario Bros universe. Developed entirely with web technologies and designed to be 100% responsive, working seamlessly on both desktop browsers and mobile devices.
+A cross-platform clone of the popular "Suika Game" set in the Super Mario Bros universe. Developed as a pure HTML5 canvas game and successfully packaged as a native Android application using Apache Cordova.
 
 ## 🎮 About the Project
+This project explores physics-based puzzle mechanics where the goal is to drop and merge identical items to score points. The architecture demonstrates a seamless transition from browser-based rendering to mobile deployment, ensuring 100% responsive design and touch-control compatibility.
 
-This project is a physics-based puzzle game where the goal is to drop different items (based on Mario power-ups and characters) into a pipe. When two identical items collide, they merge to create the next larger item, awarding points. The game ends if the items pile up and cross the top limit.
+## 🏗️ Software Architecture & Tech Stack
+* **Game Engine:** Phaser 3 (WebGL/Canvas rendering).
+* **Physics Engine:** Matter.js (Rigid body simulation, gravity, and complex collision management).
+* **Core Logic:** Modular Vanilla JavaScript, structurally separated by game lifecycle phases (Preload, Create, Update) for maintainability.
+* **Mobile Packaging (DevOps):** Apache Cordova. Configured for Android platform deployment with native plugins integrated (Device, SplashScreen, Vibration).
 
-## ✨ Features
-
-- **Realistic Physics:** Uses the Matter.js engine to simulate gravity, bounce, and friction of falling and colliding objects.
-- **Responsive Design (Cross-platform):** Scales automatically to fit any screen size. Playable with a mouse on PC and touch controls on smartphones and tablets.
-- **Sound Effects:** Integrated audio for merging, game over, and background music (managed by the browser's AudioContext).
-- **Dynamic Collision Management:** Real-time object merging with a scalable scoring system.
-
-## 🛠️ Technologies Used
-
-- **HTML5 & CSS3:** Adaptive structure and interface that removes borders and maximizes the playable area.
-- **Vanilla JavaScript:** Core game logic.
-- **Phaser 3:** Main framework for canvas/WebGL rendering and asset management (images and audio).
-- **Matter.js:** Physics engine integrated within Phaser for rigid body and collision management.
-
-## 🚀 How to Play (Local Installation)
-
-Since it is a pure web game, it doesn't require complex installations or compilers.
-
-1. Clone this repository to your machine:
-   ```bash
-   git clone [https://github.com/your-username/super-mario-suika-web.git](https://github.com/your-username/super-mario-suika-web.git)
+## ✨ Main Features
+* **Cross-Platform Execution:** Playable via desktop browsers (mouse events) and mobile devices (touch pointer events) with automatic screen scaling and aspect-ratio retention.
+* **Dynamic Collision & Merging:** Real-time object pooling and event-driven merging algorithms using Matter.js collision pair detection.
+* **Lighting & FX:** Implementation of 2D dynamic lighting (`Light2D` pipeline) tracking the active pointer, object glow post-FX, and ambient audio management.
