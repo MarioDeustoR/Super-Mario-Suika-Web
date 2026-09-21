@@ -16,8 +16,10 @@ const objects = [
     height: 1000,
     parent: "gameContainer",
     scale: {
-      mode: Phaser.Scale.ScaleModes.FIT,
-      autoCenter: Phaser.Scale.Center.CENTER_BOTH
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        width: 600,
+        height: 1000
     },
     transparent: true,
     physics: {

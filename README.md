@@ -1,34 +1,29 @@
-# 🍉 Super Mario Suika - Web Edition
+# 🍄 Super Mario Suika Web
 
-Un clon de navegador del popular "Suika Game" (Juego de la Sandía), tematizado con elementos y personajes del universo de Super Mario. 
+A web-based clone of the popular "Suika Game" (Watermelon Game) set in the Super Mario Bros universe. Developed entirely with web technologies and designed to be 100% responsive, working seamlessly on both desktop browsers and mobile devices.
 
-## 🚀 Características
-* **Físicas dinámicas:** Gravedad, rebotes y colisiones gestionadas mediante el motor Matter.js.
-* **Mecánica Suika:** Fusiona dos objetos idénticos para evolucionarlos al siguiente nivel y sumar puntos.
-* **Rendimiento optimizado:** Motor de renderizado Phaser 3 ajustado para mantener 60 FPS estables sin saturar el navegador.
-* **Totalmente estático:** Jugable directamente desde cualquier navegador web moderno sin necesidad de instalaciones pesadas.
+## 🎮 About the Project
 
-## 🛠️ Tecnologías Utilizadas
-* **HTML5 / CSS3:** Estructura y diseño de la vista del juego.
-* **JavaScript (ES6):** Lógica principal del videojuego y control del bucle (game loop).
-* **Phaser 3:** Framework para el renderizado del lienzo (canvas) en 2D y la gestión de *assets*.
-* **Matter.js:** Motor de físicas 2D que calcula el comportamiento espacial de las fusiones.
+This project is a physics-based puzzle game where the goal is to drop different items (based on Mario power-ups and characters) into a pipe. When two identical items collide, they merge to create the next larger item, awarding points. The game ends if the items pile up and cross the top limit.
 
-## 🎮 Cómo Jugar
-1. Mueve el ratón (o toca la pantalla) para mover la nube superior.
-2. Haz clic izquierdo para dejar caer el personaje.
-3. Cuando dos personajes iguales entran en contacto, se combinan formando uno de mayor tamaño.
-4. El juego termina si los objetos se acumulan y superan el límite superior del contenedor.
-5. ¡Consigue la puntuación más alta posible logrando la fusión máxima!
+## ✨ Features
 
-## 💻 Instalación y Ejecución
-Al ser un proyecto web basado en Canvas, los navegadores bloquean la carga de imágenes locales por seguridad (CORS) si abres el archivo directamente. Para ejecutarlo:
+- **Realistic Physics:** Uses the Matter.js engine to simulate gravity, bounce, and friction of falling and colliding objects.
+- **Responsive Design (Cross-platform):** Scales automatically to fit any screen size. Playable with a mouse on PC and touch controls on smartphones and tablets.
+- **Sound Effects:** Integrated audio for merging, game over, and background music (managed by the browser's AudioContext).
+- **Dynamic Collision Management:** Real-time object merging with a scalable scoring system.
 
-1. Clona este repositorio: 
-   `git clone https://github.com/MarioDeustoR/Super-Mario-Suika-Web.git`
-2. Abre la carpeta del proyecto en Visual Studio Code.
-3. Inicia la aplicación utilizando la extensión **Live Server** (clic derecho en `index.html` > *Open with Live Server*).
+## 🛠️ Technologies Used
 
----
-**Desarrollador:** Mario Deusto
-**Contexto Académico:** Desarrollo de Aplicaciones Multiplataforma (DAM) - IES San Vicente
+- **HTML5 & CSS3:** Adaptive structure and interface that removes borders and maximizes the playable area.
+- **Vanilla JavaScript:** Core game logic.
+- **Phaser 3:** Main framework for canvas/WebGL rendering and asset management (images and audio).
+- **Matter.js:** Physics engine integrated within Phaser for rigid body and collision management.
+
+## 🚀 How to Play (Local Installation)
+
+Since it is a pure web game, it doesn't require complex installations or compilers.
+
+1. Clone this repository to your machine:
+   ```bash
+   git clone [https://github.com/your-username/super-mario-suika-web.git](https://github.com/your-username/super-mario-suika-web.git)

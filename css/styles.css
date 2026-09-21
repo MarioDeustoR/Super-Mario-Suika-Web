@@ -1,11 +1,15 @@
 body {
-    height: 100vh;
     margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-image: url(../assets/background.jpg);
+    touch-action: none;
+    background-image: url('../assets/background.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-  
+
 canvas {
-  border-radius: 20px;
+    display: block;
+    margin: 0 auto;
 }
