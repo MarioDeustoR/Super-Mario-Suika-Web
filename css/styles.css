@@ -1,0 +1,11 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+}
+  
+canvas {
+  border-radius: 20px;
+}
