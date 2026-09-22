@@ -15,3 +15,15 @@ This project explores physics-based puzzle mechanics where the goal is to drop a
 * **Cross-Platform Execution:** Playable via desktop browsers (mouse events) and mobile devices (touch pointer events) with automatic screen scaling and aspect-ratio retention.
 * **Dynamic Collision & Merging:** Real-time object pooling and event-driven merging algorithms using Matter.js collision pair detection.
 * **Lighting & FX:** Implementation of 2D dynamic lighting (`Light2D` pipeline) tracking the active pointer, object glow post-FX, and ambient audio management.
+
+## ⚙️ Installation & Usage
+
+### Prerequisites
+- Any modern web browser (Chrome, Firefox, Edge, etc.).
+- *(Optional)* A local web server like Live Server in VS Code for the best experience.
+
+### Running the Game
+1. Clone the repository:
+   `git clone https://github.com/tu-usuario/suika-web.git`
+2. Navigate to the project folder.
+3. Simply double-click the `index.html` file to open it in your browser and start playing.
