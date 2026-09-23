@@ -28,4 +28,4 @@ This project explores physics-based puzzle mechanics where the goal is to drop a
 2. Navigate to the project folder.
 3. Simply double-click the `index.html` file to open it in your browser and start playing.
 
-* **[Or access de website here.](https://mariodeustor.github.io/Super-Mario-Suika-Web/)**
+* **[Or access the website here.](https://mariodeustor.github.io/Super-Mario-Suika-Web/)**
